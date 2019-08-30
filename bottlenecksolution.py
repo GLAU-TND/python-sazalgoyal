@@ -1,4 +1,3 @@
-a=int(input())
-b=int(input())
-c=a-b
-print(c)
+n=int(input())
+res=list(map(int,input().split(' ')))
+print(max([res.cont(i) for in res]))
